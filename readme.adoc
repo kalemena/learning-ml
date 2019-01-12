@@ -1,0 +1,33 @@
+== Machine Learning
+
+Here are few resources gathered and/or created in course of studying Machine Learning.
+
+== Recipes
+
+Anaconda image can be found under link:recipes/anaconda[]
+
+Building image:
+
+[source,bash]
+----
+$ docker build -t kalemena/anaconda:3-2018.12 .
+----
+
+Running image, then open http://localhost:8888/ (password is 'root')
+
+[source,bash]
+----
+$ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d kalemena/anaconda:3-2018.12
+----
+
+
+== Resources
+
+=== Books
+
+* Packt Machine Learning Algorithm with link:https://github.com/PacktPublishing/Machine-Learning-Algorithms.git[GIT ML Algorithms]
+* Packt Machine Learning for OpenCV with link:https://github.com/mbeyeler/opencv-machine-learning.git[GIT ML OpenCV]
+
+== Recipes
+
+* link:https://towardsdatascience.com/tensorflow-object-detection-with-docker-from-scratch-5e015b639b0b[Tensorflow ubuntu]
