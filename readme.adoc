@@ -23,10 +23,19 @@ $ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d kalemena/anacond
 
 == Resources
 
+=== Videos
+
+* link:https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning[Introduction to Deep Learning]
+
+=== Gits
+
+* link:https://github.com/spmallick?tab=repositories[]
+
 === Books
 
 * Packt Machine Learning Algorithm with link:https://github.com/PacktPublishing/Machine-Learning-Algorithms.git[GIT ML Algorithms]
 * Packt Machine Learning for OpenCV with link:https://github.com/mbeyeler/opencv-machine-learning.git[GIT ML OpenCV]
+* Packt Mahcine Learning Systems with python with link:https://github.com/luispedro/BuildingMachineLearningSystemsWithPython/tree/third_edition[GIT ML Systems with Python]
 
 == Recipes
 
