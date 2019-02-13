@@ -23,6 +23,11 @@ $ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d kalemena/anacond
 
 == Resources
 
+=== Reading
+
+* link:https://vas3k.com/blog/machine_learning/[Machine Learning - the summary]
+* link:https://distill.pub/2017/momentum/[]
+
 === Videos
 
 * link:https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning[Introduction to Deep Learning]
