@@ -1,0 +1,6 @@
+= Deep Racer
+
+= Links
+
+* link:https://medium.com/@autonomousracecarclub/how-to-run-deepracer-locally-to-save-your-wallet-13ccc878687[]
+* link:https://github.com/alexschultz/deepracer-for-dummies[]
