@@ -4,6 +4,39 @@
 
 image:jetson-nano-dev-kit.png[]
 
+== Setup
+
+=== Power options
+
+See link:https://desertbot.io/blog/jetson-nano-power-supply-barrel-vs-micro-usb[Power supply solutions]
+
+Checking current power mode:
+
+  $ sudo nvpmodel -q
+  NVPM WARN: fan mode is not set!
+  NV Power Mode: 5W
+  1
+
+Set 5W mode:
+
+  $ sudo nvpmodel -m 1 
+  
+Set 10X mode:
+
+  $ sudo nvpmodel -m 0
+  
+Setup Barrel Jack (5V 4A) Power Supply: Add jumper on J48
+  
+Install Jetson Stats
+
+  $ sudo apt-get install python3-pip
+  $ sudo pip3 install -U pip
+  $ sudo -H pip install -U jetson-stats
+  
+Run Jetson Stats
+
+  $ sudo jtop
+
 == Links
 
 * link:https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit[Get Started]
