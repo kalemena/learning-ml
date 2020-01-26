@@ -6,6 +6,13 @@ image:jetson-nano-dev-kit.png[]
 
 == Setup
 
+=== Install OS
+
+* Download link:https://developer.nvidia.com/jetson-nano-sd-card-image-r322[Jetson Nano Developer Kit SD Card Image]
+* Use link:https://www.balena.io/etcher[Etcher] to format SD card of 16+ GB
+* Wire up screen HDML + keyboard + mouse + network
+* Boot up and respond questions
+
 === Power options
 
 See link:https://desertbot.io/blog/jetson-nano-power-supply-barrel-vs-micro-usb[Power supply solutions]
@@ -17,24 +24,19 @@ Checking current power mode:
   NV Power Mode: 5W
   1
 
-Set 5W mode:
+Set 5W / 10W mode (respectively):
 
   $ sudo nvpmodel -m 1 
-  
-Set 10X mode:
-
+  or
   $ sudo nvpmodel -m 0
   
 Setup Barrel Jack (5V 4A) Power Supply: Add jumper on J48
   
-Install Jetson Stats
+Install/Run Jetson Stats
 
   $ sudo apt-get install python3-pip
   $ sudo pip3 install -U pip
   $ sudo -H pip install -U jetson-stats
-  
-Run Jetson Stats
-
   $ sudo jtop
 
 == Links
