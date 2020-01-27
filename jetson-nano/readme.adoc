@@ -13,6 +13,16 @@ image:jetson-nano-dev-kit.png[]
 * Wire up screen HDML + keyboard + mouse + network
 * Boot up and respond questions
 
+=== Setup
+
+* Upgrade Docker (to benefit from > 19.03 gpu capabilities):
+
+  $ sudo apt update
+  $ sudo apt install curl
+  $ curl -sSL https://get.docker.com/ | sh
+  $ sudo usermod -aG docker clement
+  $ sudo docker version
+
 === Power options
 
 See link:https://desertbot.io/blog/jetson-nano-power-supply-barrel-vs-micro-usb[Power supply solutions]
