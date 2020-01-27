@@ -56,6 +56,13 @@ Install/Run Jetson Stats
 //  $ sudo pip3 install docker-compose
 //  $ docker-compose version
 
+* Check install
+
+  $ sudo docker info | grep nvidia
+  Runtimes: nvidia runc
+  $ sudo dpkg --get-selections | grep nvidia
+  ...
+
 == Tests
 
 === Camera
