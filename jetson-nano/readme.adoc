@@ -39,7 +39,7 @@ Install/Run Jetson Stats
   $ sudo -H pip install -U jetson-stats
   $ sudo jtop
 
-=== Setup
+=== Docker (nvidia)
 
 * Upgrade Docker (to benefit from > 19.03 gpu capabilities):
 
@@ -230,6 +230,11 @@ Limits:
 
 Source link:https://collabnix.com/why-docker-19-03-on-nvidia-jetson-nano/[]
 
+.Click to see *Camera* output
+[%collapsible]
+====
+[source,sh]
+----
   $ git clone https://github.com/ajeetraina/docker-cctv-raspbian
   $ cd docker-cctv-raspbian/
   ... plug USB cam
@@ -237,6 +242,29 @@ Source link:https://collabnix.com/why-docker-19-03-on-nvidia-jetson-nano/[]
   $ sh run.sh 
   $ docker ps -a
   ... move the cam => some files should be created under videos folder
+----
+====
+
+=== GPU / CUDA
+
+Source link:https://github.com/NVIDIA/nvidia-docker/wiki/NVIDIA-Container-Runtime-on-Jetson[]
+
+.Click to see *GPU/CUDA* output
+[%collapsible]
+====
+[source,sh]
+----
+# Allow containers to communicate with Xorg
+$ sudo xhost +si:localuser:root
+$ sudo docker run --runtime nvidia --network host -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix nvcr.io/nvidia/l4t-base:r32.3.1
+
+root@nano:/# apt-get update && apt-get install -y --no-install-recommends make g++
+root@nano:/# cp -r /usr/local/cuda/samples /tmp
+root@nano:/# cd /tmp/samples/5_Simulations/nbody
+root@nano:/# make
+root@nano:/# ./nbody
+----
+====
 
 == Links
 
