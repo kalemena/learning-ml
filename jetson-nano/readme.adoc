@@ -342,6 +342,18 @@ Result = PASS
 ----
 ====
 
+.Click to see *Testing Ocean rendering* output
+[%collapsible]
+====
+[source,sh]
+----
+$ sudo docker run --runtime nvidia --network host -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix nvcr.io/nvidia/l4t-base:r32.3.1
+$ cd /tmp/samples/5_Simulations/oceanFFT
+$ make
+$ ./oceanFFT
+----
+====
+
 == Links
 
 * link:https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit[Get Started]
