@@ -386,6 +386,12 @@ $ ./oceanFFT
 
 image:test-cuda-oceanFFT.png[]
 
+== Examples
+
+* link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md[]
+* link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md[]
+* link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md[]
+
 == Links
 
 * link:https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit[Get Started]
