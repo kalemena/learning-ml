@@ -354,6 +354,8 @@ $ ./oceanFFT
 ----
 ====
 
+image:test-cuda-oceanFFT.png[]
+
 == Links
 
 * link:https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit[Get Started]
