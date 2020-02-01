@@ -61,8 +61,54 @@ Install/Run Jetson Stats
   $ sudo docker info | grep nvidia
   Runtimes: nvidia runc
   $ sudo dpkg --get-selections | grep nvidia
-  ... 
-  # Verify the Linux Kernel directly
+
+.Click to see *sudo dpkg --get-selections | grep nvidia* output
+[%collapsible]
+====
+[source,sh]
+----
+$ sudo dpkg --get-selections | grep nvidia
+libnvidia-container-tools			install
+libnvidia-container0:arm64			install
+nvidia-container-csv-cuda			install
+nvidia-container-csv-cudnn			install
+nvidia-container-csv-tensorrt			install
+nvidia-container-csv-visionworks		install
+nvidia-container-runtime			install
+nvidia-container-toolkit			install
+nvidia-docker2					install
+nvidia-jetpack					install
+nvidia-l4t-3d-core				install
+nvidia-l4t-apt-source				install
+nvidia-l4t-bootloader				install
+nvidia-l4t-camera				install
+nvidia-l4t-ccp-t210ref				install
+nvidia-l4t-configs				install
+nvidia-l4t-core					install
+nvidia-l4t-cuda					install
+nvidia-l4t-firmware				install
+nvidia-l4t-graphics-demos			install
+nvidia-l4t-gstreamer				install
+nvidia-l4t-init					install
+nvidia-l4t-initrd				install
+nvidia-l4t-jetson-io				install
+nvidia-l4t-jetson-multimedia-api		install
+nvidia-l4t-kernel				install
+nvidia-l4t-kernel-dtbs				install
+nvidia-l4t-kernel-headers			install
+nvidia-l4t-multimedia				install
+nvidia-l4t-multimedia-utils			install
+nvidia-l4t-oem-config				install
+nvidia-l4t-tools				install
+nvidia-l4t-wayland				install
+nvidia-l4t-weston				install
+nvidia-l4t-x11					install
+nvidia-l4t-xusb-firmware			install
+----
+====
+
+* Verify the Linux Kernel directly
+
   $ wget https://github.com/moby/moby/raw/master/contrib/check-config.sh
   $ chmod +x check-config.sh
   $ ./check-config.sh
