@@ -17,19 +17,6 @@ image:jetson-nano-dev-kit.png[]
 
 See link:https://desertbot.io/blog/jetson-nano-power-supply-barrel-vs-micro-usb[Power supply solutions]
 
-Checking current power mode:
-
-  $ sudo nvpmodel -q
-  NVPM WARN: fan mode is not set!
-  NV Power Mode: 5W
-  1
-
-Set 5W / 10W mode (respectively):
-
-  $ sudo nvpmodel -m 1 
-  or
-  $ sudo nvpmodel -m 0
-  
 Setup Barrel Jack (5V 4A) Power Supply: Add jumper on J48
   
 Install/Run Jetson Stats
@@ -221,6 +208,49 @@ Optional Features:
 
 Limits:
 - /proc/sys/kernel/keys/root_maxkeys: 1000000
+----
+====
+
+== Tips
+
+* GUI Enable/Disable
+
+Source link:https://imadelhanafi.com/posts/jetson_nano_setup/[]
+
+.Click to see GUI tips
+[%collapsible]
+====
+[source,sh]
+----
+# disable GUI on boot
+# After applying this command, the next time you reboot it will be on terminal mode
+sudo systemctl set-default multi-user.target
+
+# To enable GUI again
+sudo systemctl set-default graphical.target
+
+# To start GUI session on a system in terminal mode
+sudo systemctl start gdm3.service
+----
+====
+
+* Checking current power mode:
+
+.Click to see power tips
+[%collapsible]
+====
+[source,sh]
+----
+  $ sudo nvpmodel -q
+  NVPM WARN: fan mode is not set!
+  NV Power Mode: 5W
+  1
+
+Set 5W / 10W mode (respectively):
+
+  $ sudo nvpmodel -m 1 
+  or
+  $ sudo nvpmodel -m 0
 ----
 ====
 
