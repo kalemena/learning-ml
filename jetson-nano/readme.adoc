@@ -392,3 +392,6 @@ image:test-cuda-oceanFFT.png[]
 * link:https://docs.nvidia.com/jetson/l4t/[Jetson Docs]
 * link:https://developer.nvidia.com/embedded/downloads#?tx=$product,jetson_nano[Download]
 * link:https://developer.nvidia.com/embedded/faq[FAQ]
+
+* link:https://www.dlology.com/blog/how-to-run-keras-model-on-jetson-nano-in-nvidia-docker-container/[Blog jetson keras docker]
+* link:https://elinux.org/Jetson_Zoo#PyTorch_.28Caffe2.29[Jetson Zoo]
