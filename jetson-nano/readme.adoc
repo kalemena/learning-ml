@@ -49,7 +49,7 @@ Install/Run Jetson Stats
   Runtimes: nvidia runc
   $ sudo dpkg --get-selections | grep nvidia
 
-.Click to see *sudo dpkg --get-selections | grep nvidia* output
+.*sudo dpkg --get-selections | grep nvidia* output
 [%collapsible]
 ====
 [source,sh]
@@ -101,7 +101,7 @@ nvidia-l4t-xusb-firmware			install
   $ ./check-config.sh
   ...
 
-.Click to see ./check-config.sh output
+.*Output of ./check-config.sh*
 [%collapsible]
 ====
 [source,sh]
@@ -217,7 +217,7 @@ Limits:
 
 Source link:https://imadelhanafi.com/posts/jetson_nano_setup/[]
 
-.Click to see GUI tips
+.*GUI enable/disable tips*
 [%collapsible]
 ====
 [source,sh]
@@ -236,7 +236,7 @@ sudo systemctl start gdm3.service
 
 * Checking current power mode:
 
-.Click to see power tips
+.*Power tips*
 [%collapsible]
 ====
 [source,sh]
@@ -260,7 +260,7 @@ Set 5W / 10W mode (respectively):
 
 Source link:https://collabnix.com/why-docker-19-03-on-nvidia-jetson-nano/[]
 
-.Click to see *Camera* output
+.*Camera test*
 [%collapsible]
 ====
 [source,sh]
@@ -279,7 +279,7 @@ Source link:https://collabnix.com/why-docker-19-03-on-nvidia-jetson-nano/[]
 
 Source link:https://github.com/NVIDIA/nvidia-docker/wiki/NVIDIA-Container-Runtime-on-Jetson[]
 
-.Click to see *GPU/CUDA* output
+.*GPU/CUDA run from Docker*
 [%collapsible]
 ====
 [source,sh]
@@ -296,7 +296,7 @@ root@nano:/# ./nbody
 ----
 ====
 
-.Click to see *Building Docker image for CUDA samples* output
+.*Building Docker image for CUDA samples*
 [%collapsible]
 ====
 [source,sh]
@@ -319,7 +319,7 @@ $ sudo docker build -t devicequery .
 ----
 ====
 
-.Click to see *Output of CUDA devicequery on Jetson Nano* output
+.*CUDA devicequery on Jetson Nano (docker)* output
 [%collapsible]
 ====
 [source,sh]
@@ -372,7 +372,7 @@ Result = PASS
 ----
 ====
 
-.Click to see *Testing Ocean rendering* output
+.*Testing Ocean rendering (docker)* output
 [%collapsible]
 ====
 [source,sh]
@@ -385,6 +385,19 @@ $ ./oceanFFT
 ====
 
 image:test-cuda-oceanFFT.png[]
+
+.*Building all CUDA examples (non-docker)*
+[%collapsible]
+====
+[source,sh]
+----
+$ /usr/local/cuda/bin/cuda-install-samples-10.0.sh ~
+$ cd ~/NVIDIA_CUDA-10.0_Samples/
+$ make
+$ cd bin/aarch64/linux/release
+$ ./matrixMul
+----
+====
 
 == Examples
 
