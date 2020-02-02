@@ -399,6 +399,19 @@ $ ./matrixMul
 ----
 ====
 
+.*Building VisionWorks examples (non-docker)*
+[%collapsible]
+====
+[source,sh]
+----
+$ /usr/share/visionworks/sources/install-samples.sh
+$ cd ~/VisionWorks-1.6-Samples
+$ make
+$ cd bin/aarch64/linux/release
+$ ./nvx_demo_feature_tracker
+----
+====
+
 == Examples
 
 * link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md[]
