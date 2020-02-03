@@ -432,7 +432,11 @@ $ ./detectnet-camera googlenet --camera=/dev/video0
 ----
 ====
 
+image:test-imagenet-car.png[ImageNet Test]
 
+image:test-imagenet-drone.png[ImageNet Test]
+
+image:test-detectnet-car.png[ImageNet Test]
 
 == Examples
 
