@@ -412,6 +412,28 @@ $ ./nvx_demo_feature_tracker
 ----
 ====
 
+.Testing ImageNet & DetectNet
+[%collapsible]
+====
+[source,sh]
+----
+$ sudo apt-get install git cmake
+$ git clone https://github.com/dusty-nv/jetson-inference
+$ cd jetson-inference
+$ git submodule update --init
+$ mkdir build
+$ cd build
+$ cmake ../
+$ sudo make install
+$ cd aarch64/bin
+$ ./imagenet-camera googlenet --camera=/dev/video0
+or
+$ ./detectnet-camera googlenet --camera=/dev/video0
+----
+====
+
+
+
 == Examples
 
 * link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md[]
