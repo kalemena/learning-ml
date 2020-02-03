@@ -275,6 +275,17 @@ Source link:https://collabnix.com/why-docker-19-03-on-nvidia-jetson-nano/[]
 ----
 ====
 
+.*Camera Utils*
+[%collapsible]
+====
+[source,sh]
+----
+$ sudo apt-get install v4l-utils
+$ v4l2-ctl -d /dev/video0 --list-formats-ext
+$ gst-launch-1.0 v4l2src device="/dev/video0" ! xvimagesink -e
+----
+====
+
 === GPU / CUDA
 
 Source link:https://github.com/NVIDIA/nvidia-docker/wiki/NVIDIA-Container-Runtime-on-Jetson[]
@@ -411,6 +422,8 @@ $ cd bin/aarch64/linux/release
 $ ./nvx_demo_feature_tracker
 ----
 ====
+
+=== Live streaming detection
 
 .Testing ImageNet & DetectNet
 [%collapsible]
