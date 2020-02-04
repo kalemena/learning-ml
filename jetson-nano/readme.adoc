@@ -455,6 +455,8 @@ image:test-detectnet-car.png[ImageNet Test]
 
 Source link:https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT[]
 
+* link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[]
+
 NOTE: FIXME
 
 == Examples
