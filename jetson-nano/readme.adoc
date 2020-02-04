@@ -451,6 +451,12 @@ image:test-imagenet-drone.png[ImageNet Test]
 
 image:test-detectnet-car.png[ImageNet Test]
 
+=== Live streaming FaceNet
+
+Source link:https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT[]
+
+NOTE: FIXME
+
 == Examples
 
 * link:https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md[]
