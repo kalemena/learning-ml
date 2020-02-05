@@ -1,6 +1,38 @@
-== Machine Learning
+= Machine Learning
 
 Here are few resources gathered and/or created in course of studying Machine Learning.
+
+== Overview
+
+.Best Languages
+* Python
+* Julia
+
+.Best module python
+    $ pip install numpy
+    $ pip install scipy
+    $ pip install pandas
+    $ pip install matplotlib
+    $ pip install scikit-learn
+    $ pip install nltk
+    $ pip install opencv-python
+
+.Best utilities python
+    $ pip install requests
+    $ pip install bs4
+    $ pip install pillow
+    $ pip install redis
+    $ pip install virtualenv
+    $ pip install pickle
+
+.Best Frameworks
+* Tensorflow
+* Keras
+* PyTorch
+
+.Best IDE
+    $ pip install spyder3
+    $ pip install jupyter-notebook
 
 == Recipes
 
