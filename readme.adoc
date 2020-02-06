@@ -34,6 +34,13 @@ Here are few resources gathered and/or created in course of studying Machine Lea
     $ pip install spyder3
     $ pip install jupyter-notebook
 
+== Courses
+
+* link:https://www.coursera.org/specializations/deep-learning[]
+* link:https://www.udemy.com/course/machinelearning/[]
+* link:https://www.udemy.com/course/deeplearning/[]
+* link:https://www.udemy.com/course/artificial-intelligence-az/[]
+
 == Recipes
 
 Anaconda image can be found under link:recipes/anaconda[]
