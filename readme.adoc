@@ -4,6 +4,8 @@ Here are few resources gathered and/or created in course of studying Machine Lea
 
 == Overview
 
+image:./images/ai-map.png[]
+
 .Best Languages
 * Python
 * Julia
