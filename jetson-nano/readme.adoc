@@ -455,6 +455,49 @@ image:test-detectnet-car.png[ImageNet Test]
 
 Source link:https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT[]
 
+[%collapsible]
+====
+[source,bash]
+----
+### Clone repo
+$ cd ~/workspace/tests/
+$ git clone https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT.git
+$ cd mtcnn_facenet_cpp_tensorRT/
+
+### Install pre-requisits
+$ sudo apt-get install cmake libopenblas-dev
+# OpenCV (https://elinux.org/Jetson_Zoo#OpenCV)
+$ sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
+$ sudo apt-get install python3-pip
+$ sudo pip3 install -U pip testresources setuptools
+$ sudo pip3 install -U numpy==1.16.1 future==0.17.1 mock==3.0.5 h5py==2.9.0 keras_preprocessing==1.0.5 keras_applications==1.0.8 gast==0.2.2 enum34 futures protobuf
+$ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 'tensorflow-gpu<2'
+
+### Download model
+$ wget https://github.com/apollo-time/facenet/raw/master/model/resnet/facenet.pb
+
+### Convert frozen protobuf (.pb) model to UFF
+$ python3 ./step01_pb_to_uff.py
+
+### Copy models
+$ cd ..
+$ git clone https://github.com/PKUZHOU/MTCNN_FaceDetection_TensorRT
+$ mv MTCNN_FaceDetection_TensorRT/det* mtcnn_facenet_cpp_tensorRT/mtCNNModels
+
+### Build
+## FIXME: replace CV_RGB2BGR by cv::COLOR_RGB2BGR in src/*.cpp
+$ mkdir build && cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ make -j${nproc}
+
+### Execute
+$ ./mtcnn_facenet_cpp_tensorRT
+
+KO !!!
+----
+====
+
+
 * link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[]
 
 NOTE: FIXME
