@@ -497,10 +497,21 @@ KO !!!
 ----
 ====
 
+Source link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[]
 
-* link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[]
+[%collapsible]
+====
+[source,bash]
+----
+### Pre-requisits
+$ sudo apt-get install python3-pip cmake libopenblas-dev liblapack-dev libjpeg-dev
 
-NOTE: FIXME
+### Install SWAP to enable build-ability
+$ git clone https://github.com/JetsonHacksNano/installSwapfile
+$ ./installSwapfile/installSwapfile.sh
+
+----
+====
 
 == Examples
 
