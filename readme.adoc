@@ -77,6 +77,9 @@ image:./images/ai-map.png[]
 .Docker Recipes
 * link:https://towardsdatascience.com/tensorflow-object-detection-with-docker-from-scratch-5e015b639b0b[Tensorflow ubuntu]
 
+.DonkeyCars
+* link:https://rahulrav.com/blog/self_driving_radio_controlled_cars.html[]
+
 == Recipes
 
 Anaconda image can be found under link:recipes/anaconda[]
