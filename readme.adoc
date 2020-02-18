@@ -62,6 +62,7 @@ image:./images/ai-map.png[]
 * link:https://www.slideshare.net/awahid/big-data-and-machine-learning-for-businesses[]
 
 .Info
+* link:http://penseeartificielle.fr/tout-pour-bien-debuter-en-machine-learning-4/[]
 * link:https://distill.pub/2017/momentum/[]
 
 .News
