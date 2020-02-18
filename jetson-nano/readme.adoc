@@ -497,26 +497,34 @@ KO !!!
 ----
 ====
 
-Source link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[]
+Source link:https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd[face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python]
 
 [%collapsible]
 ====
+This sample works!
+Faces in front of webcam are detected and flagged as Users.
+Same face comming back later will be recognized.
+
 [source,bash]
 ----
 ### Pre-requisits
 $ sudo apt-get install python3-pip cmake libopenblas-dev liblapack-dev libjpeg-dev
 
 ### Install SWAP to enable build-ability
-# SKIP $ git clone https://github.com/JetsonHacksNano/installSwapfile
-# SKIP $ ./installSwapfile/installSwapfile.sh
+$ git clone https://github.com/JetsonHacksNano/installSwapfile
+$ ./installSwapfile/installSwapfile.sh
 
 ### Build numpy
 # SKIP $ pip3 install numpy
 
-### Install Face reco app
+### Install Face reco app (expect very long time > 30min)
 $ sudo pip3 install face_recognition
 
-# ALT: https://github.com/ageitgey/face_recognition#python-code-examples
+### Run the cam tool (If need, change the code to use USB cam instead of PiCam)
+$ wget -O doorcam.py tiny.cc/doorcam
+$ python3 doorcam.py
+
+# ALT: more examples at https://github.com/ageitgey/face_recognition#python-code-examples
 ----
 ====
 
