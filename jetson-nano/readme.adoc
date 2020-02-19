@@ -549,3 +549,5 @@ $ python3 doorcam.py
 
 * link:https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about[Training Courses]
 * link:https://developer.nvidia.com/embedded/twodaystoademo[Two Days Training]
+
+* link:https://custom-build-robots.com/top-story-en/jetson-nano-booting-from-an-ssd-hard-disk/12143?lang=en[Plug SSD external]
