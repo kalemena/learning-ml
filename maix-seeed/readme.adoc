@@ -1,0 +1,42 @@
+= MAIX Seeed
+
+== Docs
+
+* link:https://maixduino.sipeed.com[Official Arduino Docs]
+* link:https://maixpy.sipeed.com[Official MicroPython Docs]
+* link:https://www.cnx-software.com/2019/08/21/getting-started-with-sipeed-m1-based-maixduino-board-grove-ai-hat-for-raspberry-pi/[Tutorial #1]
+
+* link:https://blog.sipeed.com/p/680.html[Example - MobileNet]
+
+== Setup
+
+link:https://maixpy.sipeed.com/en/get_started/serial_tools.html[]
+
+.Connect to AIoT
+[source,bash]
+----
+>>> help()
+Welcome to MicroPython on the Sipeed Maix!
+For generic online docs please visit https://maixpy.sipeed.com 
+
+Official website : http://www.sipeed.com 
+
+Control commands:                                                      
+  CTRL-A        -- on a blank line, enter raw REPL mode                
+  CTRL-B        -- on a blank line, enter normal REPL mode             
+  CTRL-C        -- interrupt a running program                         
+  CTRL-D        -- on a blank line, do a soft reset of the board       
+  CTRL-E        -- on a blank line, enter paste mode
+
+For further help on a specific object, type help(obj)
+For a list of available modules, type help('modules')
+>>> 
+----
+
+TIP: Ctrl-A x to exit !
+
+.Uprade firmware
+[source,bash]
+----
+$ wget -r --no-parent https://dl.sipeed.com/MAIX/MaixPy/release/master/maixpy_v0.5.0_9_g8eba07d/
+----
