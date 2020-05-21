@@ -82,18 +82,4 @@ image:./images/ai-map.png[]
 
 == Recipes
 
-Anaconda image can be found under link:recipes/anaconda[]
-
-Building image:
-
-[source,bash]
-----
-$ docker build -t kalemena/anaconda:3-2018.12 .
-----
-
-Running image, then open http://localhost:8888/ (password is 'root')
-
-[source,bash]
-----
-$ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d kalemena/anaconda:3-2018.12
-----
+* Anaconda image can be found under link:https://github.com/kalemena/docker-anaconda[]
