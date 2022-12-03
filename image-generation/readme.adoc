@@ -1,0 +1,10 @@
+= AI - Images
+:hardbreaks:
+
+== Stable Diffusion
+
+.Concurrent technology
+* MidJourney
+
+.Online
+* link:https://www.mage.space/[Mage Space]
