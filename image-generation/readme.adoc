@@ -8,3 +8,6 @@
 
 .Online
 * link:https://www.mage.space/[Mage Space]
+
+.Guide
+* link:https://stable-diffusion-art.com/models/[Beginner's guide]
