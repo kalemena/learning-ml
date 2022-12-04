@@ -8,6 +8,7 @@
 
 .Online
 * link:https://www.mage.space/[Mage Space]
+* link:https://www.patience.ai/[Patience - testing plenty models]
 
 .Guide
 * link:https://stable-diffusion-art.com/models/[Beginner's guide]
