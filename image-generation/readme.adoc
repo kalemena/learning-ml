@@ -3,12 +3,10 @@
 
 == Stable Diffusion
 
-.Concurrent technology
-* MidJourney
-
 .Online
 * link:https://www.mage.space/[Mage Space]
 * link:https://www.patience.ai/[Patience - testing plenty models]
+* link:https://dezgo.com/[Dezgo]
 
 .Guide
 * link:https://stable-diffusion-art.com/models/[Beginner's guide]
