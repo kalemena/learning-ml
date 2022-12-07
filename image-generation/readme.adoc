@@ -8,13 +8,14 @@
 * link:https://www.patience.ai/[Patience - testing plenty models]
 * link:https://dezgo.com/[Dezgo]
 
-.Guide
-* link:https://stable-diffusion-art.com/models/[Beginner's guide]
-
-
 .Prompts Examples
 * link:https://lexica.art/[Lexica Art]
 * link:https://arthub.ai/community[Arthub AI]
 * link:https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts/[MPost]
+
+.Guide
+* link:https://stable-diffusion-art.com/beginners-guide/[Beginner's guide - What is this?]
+* link:https://stable-diffusion-art.com/models/[Beginner's guide - Models]
+
 
 
