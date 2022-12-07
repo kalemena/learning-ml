@@ -17,5 +17,8 @@
 * link:https://stable-diffusion-art.com/beginners-guide/[Beginner's guide - What is this?]
 * link:https://stable-diffusion-art.com/models/[Beginner's guide - Models]
 
+.Books
+* link:https://cdn.openart.ai/assets/Stable%20Diffusion%20Prompt%20Book%20From%20OpenArt%2011-13.pdf[Stable Diffusion Prompts]
+
 
 
