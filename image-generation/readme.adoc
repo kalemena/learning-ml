@@ -14,6 +14,7 @@
 * link:https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts/[MPost]
 * link:https://decentralizedcreator.com/best-stable-diffusion-anime-prompts/[Decentralized creator]
 * link:https://stablediffusion.fr/prompts[Other prompts]
+* link:https://prompthero.com/[PromptHero]
 
 .Guide
 * link:https://stable-diffusion-art.com/beginners-guide/[Beginner's guide - What is this?]
