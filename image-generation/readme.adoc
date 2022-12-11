@@ -26,3 +26,10 @@
 
 
 
+
+
+== Questions / Answers
+
+.What are *fp16* vs *fp32* model differences ?
+In short, fp16 reduces memory footprint and CPU consumption while having little downside on quality.
+fp16 migh therefore be helpful to train faster, which little chances to overfit
