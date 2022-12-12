@@ -25,6 +25,14 @@
 * link:https://cdn.openart.ai/assets/Stable%20Diffusion%20Prompt%20Book%20From%20OpenArt%2011-13.pdf[Stable Diffusion Prompts]
 
 
+=== Installation - Local
+
+AUTOMATIC1111 seems the easiest and flexible way to install.
+
+* link:https://aituts.com/automatic1111s-webgui-apple-silicon/[Installation for Mac M1]
+* link:https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon[repo for AUTOMATIC1111]
+
+
 
 
 
