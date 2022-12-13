@@ -5,6 +5,7 @@
 
 .Online
 * link:https://www.mage.space/[Mage Space]
+* link:https://huggingface.co/spaces/stabilityai/stable-diffusion[Hugging Face - Stable Diffusion]
 * link:https://www.patience.ai/[Patience - testing plenty models]
 * link:https://dezgo.com/[Dezgo]
 
