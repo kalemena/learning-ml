@@ -25,6 +25,14 @@
 .Books
 * link:https://cdn.openart.ai/assets/Stable%20Diffusion%20Prompt%20Book%20From%20OpenArt%2011-13.pdf[Stable Diffusion Prompts]
 
+=== Models
+
+.midjourney-v4-diffusion (mdjrny-v4.safetensors)
+
+    Stable Diffusion fine tuned on Midjourney v4 images
+    Use prompt: mdjrny-v4 style
+    link:https://huggingface.co/prompthero/openjourney[Midjourney v4]
+    link:https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.safetensors[mdjrny-v4.safetensors]
 
 === Installation - Local
 
