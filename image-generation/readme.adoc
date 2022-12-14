@@ -34,6 +34,7 @@
     link:https://huggingface.co/prompthero/openjourney[Midjourney v4]
     link:https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.safetensors[mdjrny-v4.safetensors]
 
+image:images/00100-3929705648-mdjrny-v4.png[200,300]
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
