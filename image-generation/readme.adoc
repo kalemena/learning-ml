@@ -35,6 +35,14 @@
     link:https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.safetensors[mdjrny-v4.safetensors]
 
 image:images/00100-3929705648-mdjrny-v4.png[200,300]
+
+.Anim - Anything-V3.0 (Anything-V3.0-pruned.safetensors)
+
+    A latent diffusion model for weebs. This model is intended to produce high-quality, highly detailed anime style with just a few prompts. 
+    Like other anime-style Stable Diffusion models, it also supports danbooru tags to generate images.
+    link:https://huggingface.co/Linaqruf/anything-v3.0[Anything-V3.0]
+    link:https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.safetensors[Anything-V3.0-pruned.safetensors]
+
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
