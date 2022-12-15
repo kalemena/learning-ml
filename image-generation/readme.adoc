@@ -29,10 +29,12 @@
 
 .midjourney-v4-diffusion (mdjrny-v4.safetensors)
 
-    Stable Diffusion fine tuned on Midjourney v4 images
-    Use prompt: mdjrny-v4 style
-    link:https://huggingface.co/prompthero/openjourney[Midjourney v4]
-    link:https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.safetensors[mdjrny-v4.safetensors]
+* link:https://huggingface.co/prompthero/openjourney[Midjourney v4]
+* link:https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.safetensors[mdjrny-v4.safetensors]
+
+Stable Diffusion fine tuned on Midjourney v4 images.
+Use prompt: mdjrny-v4 style
+    
 
 image:images/00100-3929705648-mdjrny-v4.png[200,300]
 
