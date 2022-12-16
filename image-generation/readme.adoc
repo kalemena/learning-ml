@@ -43,8 +43,6 @@ image:images/00100-3929705648-mdjrny-v4.png[200,300,link="images/00100-392970564
 * link:https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.safetensors[Anything-V3.0-pruned.safetensors]
 
 A latent diffusion model for weebs. This model is intended to produce high-quality, highly detailed anime style with just a few prompts. 
-    A latent diffusion model for weebs. This model is intended to produce high-quality, highly detailed anime style with just a few prompts. 
-A latent diffusion model for weebs. This model is intended to produce high-quality, highly detailed anime style with just a few prompts. 
 Like other anime-style Stable Diffusion models, it also supports danbooru tags to generate images.
 
 image:images/00253-30-12-512-512-1689900087-Anything-V3.0-pruned-2700c435.png[200,300,link="images/00253-30-12-512-512-1689900087-Anything-V3.0-pruned-2700c435.txt]
