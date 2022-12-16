@@ -1,0 +1,2 @@
+1girl, brown hair, green eyes, colorful, autumn, UK countryside, background Big Ben, cumulonimbus clouds, lighting, blue sky, falling leaves, garden
+Steps: 30, Sampler: DDIM, CFG scale: 12, Seed: 1689900087, Size: 512x512, Model hash: 2700c435
