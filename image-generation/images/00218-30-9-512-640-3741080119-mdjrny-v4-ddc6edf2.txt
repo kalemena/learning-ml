@@ -1,0 +1,2 @@
+portrait Anime Girl steampunk cute-fine-face, pretty face, realistic shaded Perfect face, fine details. Anime. Bioshock steampunk realistic shaded lighting by katsuhiro otomo ghost-in-the-shell, magali villeneuve, artgerm, rutkowski Jeremy Lipkin and Giuseppe Dangelico Pino and Michael Garmash and Rob Rey
+Steps: 30, Sampler: Euler a, CFG scale: 9, Seed: 3741080119, Size: 512x640, Model hash: ddc6edf2
