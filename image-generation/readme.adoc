@@ -99,3 +99,6 @@ fp16 migh therefore be helpful to train faster, which little chances to overfit
 .What is *safetensors* ?
 See link:https://github.com/huggingface/safetensors[].
 This basically addresses a few limitations and security aspects of *ckpt* (pickle)
+Note: To enable SafeTensors for GPU, the SAFETENSORS_FAST_GPU environment variable needs to be set to 1
+
+
