@@ -102,3 +102,14 @@ This basically addresses a few limitations and security aspects of *ckpt* (pickl
 Note: To enable SafeTensors for GPU, the SAFETENSORS_FAST_GPU environment variable needs to be set to 1
 
 
+
+
+== Lab
+
+* link:https://lablab.ai/t/stable-diffusion-lexica[LabLab]
+
+[source,bash]
+----
+$ wget https://lexica.art/api/v1/search?q=apples
+----
+
