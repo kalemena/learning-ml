@@ -102,7 +102,9 @@ This basically addresses a few limitations and security aspects of *ckpt* (pickl
 Note: To enable SafeTensors for GPU, the SAFETENSORS_FAST_GPU environment variable needs to be set to 1
 
 
+== Security
 
+* link:https://github.com/mmaitre314/picklescan[Pickle Scanner]
 
 == Lab
 
