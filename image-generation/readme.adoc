@@ -48,6 +48,12 @@ Like other anime-style Stable Diffusion models, it also supports danbooru tags t
 
 image:images/00253-30-12-512-512-1689900087-Anything-V3.0-pruned-2700c435.png[200,300,link="images/00253-30-12-512-512-1689900087-Anything-V3.0-pruned-2700c435.txt]
 
+.JWST Deep Space Diffusion (JWST-Deep-Space.ckpt)
+
+* link:https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion[JWST-Deep-Space-diffusion]
+
+This is a fine-tuned Stable Diffusion model (based on v1.5) trained on images taken by the James Webb Space Telescope, as well as Judy Schmidt. 
+Use the token JWST in your prompts to use the style (e.g., jwst, green spiral galaxy).
 
 === Installation - Local
 
