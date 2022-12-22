@@ -1,0 +1,2 @@
+jwst
+Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 1778192444, Size: 512x768, Model hash: a2a802b2

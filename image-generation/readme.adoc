@@ -55,6 +55,8 @@ image:images/00253-30-12-512-512-1689900087-Anything-V3.0-pruned-2700c435.png[20
 This is a fine-tuned Stable Diffusion model (based on v1.5) trained on images taken by the James Webb Space Telescope, as well as Judy Schmidt. 
 Use the token JWST in your prompts to use the style (e.g., jwst, green spiral galaxy).
 
+image:images/00078-1778192444-jwst.png[200,200,link="images/00078-1778192444-jwst.txt]
+
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
