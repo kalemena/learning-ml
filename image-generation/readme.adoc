@@ -38,10 +38,7 @@ Use prompt: mdjrny-v4 style
 
 image:images/00100-3929705648-mdjrny-v4.png[200,300,link="images/00100-3929705648-mdjrny-v4.txt"] image:images/00218-30-9-512-640-3741080119-mdjrny-v4-ddc6edf2.png[200,300,link="images/00218-30-9-512-640-3741080119-mdjrny-v4-ddc6edf2.txt"]
 
-.Anim - Anything-V3.0 (Anything-V3.0-pruned.safetensors)
-
-* link:https://huggingface.co/Linaqruf/anything-v3.0[Anything-V3.0]
-* link:https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.safetensors[Anything-V3.0-pruned.safetensors]
+.Anim - link:https://huggingface.co/Linaqruf/anything-v3.0[Anything-V3.0] (Anything-V3.0-pruned.safetensors)
 
 A latent diffusion model for weebs. This model is intended to produce high-quality, highly detailed anime style with just a few prompts. 
 Like other anime-style Stable Diffusion models, it also supports danbooru tags to generate images.
