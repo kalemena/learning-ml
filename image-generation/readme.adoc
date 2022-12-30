@@ -53,6 +53,18 @@ Use the token JWST in your prompts to use the style (e.g., jwst, green spiral ga
 image:images/JWST-1778192444.png[200,200,link="images/JWST-1778192444.txt"]
 
 
+.Comic Diffusion - link:https://huggingface.co/ogkalu/Comic-Diffusion[Comic Diffusion] (comic-diffusion-V2.ckpt)
+
+    Includes 6 comic styles.
+
+        The tokens for V2 are:
+        charliebo artstyle
+        holliemengert artstyle
+        marioalberti artstyle
+        pepelarraz artstyle
+        andreasrocha artstyle
+        jamesdaly artstyle
+
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
