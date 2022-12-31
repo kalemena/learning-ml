@@ -1,0 +1,2 @@
+Shakira, charliebo artstyle
+Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 3345507407, Size: 512x512, Model hash: 8b3c8f11

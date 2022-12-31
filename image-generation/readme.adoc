@@ -65,6 +65,7 @@ image:images/JWST-1778192444.png[200,200,link="images/JWST-1778192444.txt"]
         andreasrocha artstyle
         jamesdaly artstyle
 
+image:images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.png[200,300,link="images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.txt"]
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
