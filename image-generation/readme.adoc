@@ -66,6 +66,9 @@ image:images/JWST-1778192444.png[200,200,link="images/JWST-1778192444.txt"]
         jamesdaly artstyle
 
 image:images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.png[200,300,link="images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.txt"]
+.Photo - link:https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0[DreamLike Photoreal] (dreamlike-photoreal-2.0.safetensors)
+
+    Dreamlike Photoreal 2.0 is a photorealistic model based on Stable Diffusion 1.5, made by dreamlike.art.v
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
