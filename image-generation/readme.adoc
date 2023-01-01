@@ -71,6 +71,8 @@ image:images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.png[200,300,lin
     Dreamlike Photoreal 2.0 is a photorealistic model based on Stable Diffusion 1.5, made by dreamlike.art.v
 
 image:images/dreamlike-photoreal-2.0-30-7.5-512-768-3011399453-fdcf65e7.png[200,300,link="images/dreamlike-photoreal-2.0-30-7.5-512-768-3011399453-fdcf65e7.txt"]
+image:images/dreamlike-photoreal-2.0-30-7.5-512-768-1970579520-fdcf65e7.png[200,300,link="images/dreamlike-photoreal-2.0-30-7.5-512-768-1970579520-fdcf65e7.txt"]
+image:images/dreamlike-photoreal-2.0-30-7.5-512-768-56846968-fdcf65e7.png[200,300,link="images/dreamlike-photoreal-2.0-30-7.5-512-768-56846968-fdcf65e7.txt"]
 === Installation - Local
 
 AUTOMATIC1111 seems the easiest and flexible way to install.
