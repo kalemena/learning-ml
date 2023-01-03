@@ -84,6 +84,8 @@ image:images/dreamlike-photoreal-2.0-30-7.5-512-768-56846968-fdcf65e7.png[200,30
     PaperCut in your prompts.
     
 image:images/Anim-PaperCut_v1-20-7-512-768-889822866-08f7a22d.png[200,300,link="images/Anim-PaperCut_v1-20-7-512-768-889822866-08f7a22d.txt"]
+image:images/Anim-PaperCut_v1-20-7-512-768-4271778453-08f7a22d.png[200,300,link="images/Anim-PaperCut_v1-20-7-512-768-4271778453-08f7a22d.txt"]
+
 
 
 === Installation - Local
