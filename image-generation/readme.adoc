@@ -74,6 +74,9 @@ image:images/comic-diffusion-V2-30-7-512-512-3345507407-8b3c8f11.png[200,300,lin
 .Photo - link:https://huggingface.co/darkstorm2150/Protogen_x5.8_Official_Release[ProtoGen_X5.8] (ProtoGen_X5.8-pruned-fp16.safetensors)
 
 image:images/Anim-ProtoGen_X5.8-pruned-fp16-20-7-768-1024-2047626914-e695afa2.png[200,300,link="images/Anim-ProtoGen_X5.8-pruned-fp16-20-7-768-1024-2047626914-e695afa2.txt"]
+image:images/Anim-ProtoGen_X5.8-pruned-fp16-24-6.5-768-1024-3130239558-e695afa2.png[200,300,link="images/Anim-ProtoGen_X5.8-pruned-fp16-24-6.5-768-1024-3130239558-e695afa2.txt"]
+image:images/Anim-ProtoGen_X5.8-pruned-fp16-30-10-512-768-1756553694-e695afa2.png[200,300,link="images/Anim-ProtoGen_X5.8-pruned-fp16-30-10-512-768-1756553694-e695afa2.txt"]
+image:images/Anim-ProtoGen_X5.8-pruned-fp16-30-10-768-768-4144179575-e695afa2.png[200,300,link="images/Anim-ProtoGen_X5.8-pruned-fp16-30-10-768-768-4144179575-e695afa2.txt"]
 
 .Photo - link:https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0[DreamLike Photoreal] (dreamlike-photoreal-2.0.safetensors)
 
