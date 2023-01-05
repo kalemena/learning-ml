@@ -29,7 +29,9 @@
 
 === Models
 
-.Other - link:https://huggingface.co/prompthero/openjourney[Midjourney v4](mdjrny-v4.safetensors)
+.Common - link:https://huggingface.co/runwayml/stable-diffusion-v1-5[Stable Diffusion v1.5] (v1-5-pruned-emaonly.safetensors)
+
+    Base for most models.
 
 Stable Diffusion fine tuned on Midjourney v4 images.
 Use prompt: mdjrny-v4 style
