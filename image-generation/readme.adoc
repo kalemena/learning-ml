@@ -37,8 +37,10 @@
 
     Base for most models.
 
-Stable Diffusion fine tuned on Midjourney v4 images.
-Use prompt: mdjrny-v4 style
+.Other - link:https://huggingface.co/prompthero/openjourney[Midjourney v4] (mdjrny-v4.safetensors)
+
+    Stable Diffusion fine tuned on Midjourney v4 images.
+    Use prompt: mdjrny-v4 style
 
 image:images/mdjrny-v4-30-9-512-640-3741080119-ddc6edf2.png[200,300,link="images/mdjrny-v4-30-9-512-640-3741080119-ddc6edf2.txt"]
 image:images/mdjrny-v4-3929705648.png[200,300,link="images/mdjrny-v4-3929705648.txt"]
