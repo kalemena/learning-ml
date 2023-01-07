@@ -33,6 +33,10 @@
 
     Base for most models.
 
+.Common - https://huggingface.co/stabilityai/stable-diffusion-2-1[Stable Diffusion v2.1] (v2-1_768-ema-pruned.safetensors)
+
+    Base for most models.
+
 Stable Diffusion fine tuned on Midjourney v4 images.
 Use prompt: mdjrny-v4 style
 
