@@ -147,6 +147,9 @@ Here are sets of examples helping:
 .Example of General:
     disfigured, kitsch, ugly, oversaturated, greain, low-res, deformed, blurry, noise, defective, incoherent, blur, out of focus, old, surreal, tiling, out of frame, body out of frame, cut off, (watermark:1.5), signature, (words), letters, (logo:1.5), sign, writing, poorly drawn, text,
 
+    
+.Example Face:
+    untracked eyes, imperfect eyes, cross-eye, crossed eyes, asymmetric eyes, (facial blemish:1.5), partial faces, hair not attached to head
 == Questions / Answers
 
 .What are *fp16* vs *fp32* model differences ?
