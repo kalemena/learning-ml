@@ -147,6 +147,12 @@ Here are sets of examples helping:
 .Example of General:
     disfigured, kitsch, ugly, oversaturated, greain, low-res, deformed, blurry, noise, defective, incoherent, blur, out of focus, old, surreal, tiling, out of frame, body out of frame, cut off, (watermark:1.5), signature, (words), letters, (logo:1.5), sign, writing, poorly drawn, text,
 
+.Example Anatomy:
+    twisted, (bad anatomy:1.5), disfigured, poorly drawn face, mutation, mutated, extra limb, extra limbs, extra legs, extra arms, extra finger, too many fingers, fused fingers,
+    poorly drawn hands, poorly drawn feet, extra feet, missing limb, floating limbs, disconnected limbs, limbs fused with body, 
+    malformed hands, long neck, long body, floating arms, (too many arms:1.5),
+    disgusting, poorly drawn, mutilated, mangled, floating head, doubled head, unattached head, doubled head, head in body, (misshapen body:1.1),
+    (bad hands:1.3), (mangled hands:1.2), (missing hands), (missing arms), backward hands,
     
 .Example Face:
     untracked eyes, imperfect eyes, cross-eye, crossed eyes, asymmetric eyes, (facial blemish:1.5), partial faces, hair not attached to head
