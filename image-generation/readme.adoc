@@ -145,7 +145,9 @@ Negative prompts is mandatory for good results.
 Here are sets of examples helping:
 
 .Example of General:
-    disfigured, kitsch, ugly, oversaturated, greain, low-res, deformed, blurry, noise, defective, incoherent, blur, out of focus, old, surreal, tiling, out of frame, body out of frame, cut off, (watermark:1.5), signature, (words), letters, (logo:1.5), sign, writing, poorly drawn, text,
+    disfigured, kitsch, ugly, oversaturated, greain, low-res, low contrast, underexposed, overexposed, bad art, beginner, amateur, 
+    deformed, blurry, noise, defective, incoherent, blur, out of focus, old, surreal, tiling, out of frame, body out of frame, cut off, 
+    (watermark:1.5), signature, (words), letters, (logo:1.5), sign, writing, poorly drawn, text,
 
 .Example Anatomy:
     twisted, (bad anatomy:1.5), disfigured, poorly drawn face, mutation, mutated, extra limb, extra limbs, extra legs, extra arms, extra finger, too many fingers, fused fingers,
