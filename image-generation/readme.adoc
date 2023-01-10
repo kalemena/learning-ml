@@ -150,7 +150,8 @@ Here are sets of examples helping:
     (watermark:1.5), signature, (words), letters, (logo:1.5), sign, writing, poorly drawn, text,
 
 .Example Anatomy:
-    twisted, (bad anatomy:1.5), disfigured, poorly drawn face, mutation, mutated, extra limb, extra limbs, extra legs, extra arms, extra finger, too many fingers, fused fingers,
+    twisted, (bad anatomy:1.5), disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, extra limbs, 
+    extra legs, extra arms, extra finger, too many fingers, fused fingers,
     poorly drawn hands, poorly drawn feet, extra feet, missing limb, floating limbs, disconnected limbs, limbs fused with body, 
     malformed hands, long neck, long body, floating arms, (too many arms:1.5),
     disgusting, poorly drawn, mutilated, mangled, floating head, doubled head, unattached head, doubled head, head in body, (misshapen body:1.1),
