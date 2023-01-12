@@ -28,6 +28,10 @@
 .Books
 * link:https://cdn.openart.ai/assets/Stable%20Diffusion%20Prompt%20Book%20From%20OpenArt%2011-13.pdf[Stable Diffusion Prompts]
 
+.Comparators
+* link:https://www.the-ai-art.com/[The AI Art]
+* link:https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference[MidJourney Styles]
+
 === Models
 
 .Common - link:https://huggingface.co/runwayml/stable-diffusion-v1-5[Stable Diffusion v1.5] (v1-5-pruned-emaonly.safetensors)
