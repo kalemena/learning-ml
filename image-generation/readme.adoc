@@ -168,6 +168,9 @@ Here are sets of examples helping:
 .Example misc:
     hair growing from clothes, floating jewelry, unattached jewelry, (badly fitted headwear:1.2), badly fitted clothes,
 
+.Example
+    portrait, closeups, out of shot
+
 == Questions / Answers
 
 .What are *fp16* vs *fp32* model differences ?
