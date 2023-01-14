@@ -182,6 +182,10 @@ See link:https://github.com/huggingface/safetensors[].
 This basically addresses a few limitations and security aspects of *ckpt* (pickle)
 Note: To enable SafeTensors for GPU, the SAFETENSORS_FAST_GPU environment variable needs to be set to 1
 
+.What is *prune* ?
+Prune is a strip of unused weights and EMA, keep everything else as is.
+Prune is good if model is not used for training.
+
 
 == Security
 
