@@ -186,6 +186,11 @@ Note: To enable SafeTensors for GPU, the SAFETENSORS_FAST_GPU environment variab
 Prune is a strip of unused weights and EMA, keep everything else as is.
 Prune is good if model is not used for training.
 
+== Best practices
+
+.Sampler
+Start with Euler A which is fast, then you might improve with DDIM, HEUN or DPM2 Karras
+
 
 == Security
 
