@@ -205,3 +205,8 @@ Start with Euler A which is fast, then you might improve with DDIM, HEUN or DPM2
 $ wget https://lexica.art/api/v1/search?q=apples
 ----
 
+
+== Links
+
+
+* link:https://github.com/deforum-art/deforum-for-automatic1111-webui[Deforum - Video]
