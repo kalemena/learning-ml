@@ -136,6 +136,9 @@ $ ./webui.sh
 # wait to see Running on a local URL: https://127.0.0.1:7860
 ----
 
+.Extensions
+* link:https://github.com/deforum-art/sd-webui-deforum[Deforum extension to Automatic1111]
+
 
 
 
