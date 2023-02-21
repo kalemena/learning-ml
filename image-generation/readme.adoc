@@ -137,6 +137,7 @@ $ ./webui.sh
 ----
 
 .Extensions
+* link:https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features[Automatic1111 features]
 * link:https://github.com/deforum-art/sd-webui-deforum[Deforum extension to Automatic1111]
 
 
