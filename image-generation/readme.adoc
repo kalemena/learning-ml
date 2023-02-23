@@ -142,6 +142,8 @@ $ ./webui.sh
 
 .Guides
 * link:https://github.com/camenduru/stable-diffusion-webui-docker[Links for specifics]
+* link:https://github.com/TheLastBen/fast-stable-diffusion[TheLastBen - Fast stable - diffusion]
+
 
 
 
