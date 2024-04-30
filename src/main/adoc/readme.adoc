@@ -1,0 +1,10 @@
+
+== Running Jupyter locally
+
+* link:https://github.com/jupyter/docker-stacks[Running Jupyter - Notebook]
+* link:https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html[Jupyter - flavors]
+
+[source, bash]
+----
+$ docker run --network=host -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-05-27
+----
