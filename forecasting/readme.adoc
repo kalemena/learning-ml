@@ -1,0 +1,11 @@
+= Forecasting
+:hardbreaks-option:
+
+
+== References
+
+.Guides
+* link:https://medium.com/@wainaina.pierre/the-complete-guide-to-time-series-forecasting-models-ef9c8cd40037[Medium Article - Complete Guide to Time Series forecasting]
+
+.Prometheus
+* link:https://github.com/dcoles/prometheus-pandas[Prometheus - Pandas]
