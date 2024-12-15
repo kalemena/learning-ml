@@ -1,6 +1,42 @@
 = Forecasting
 :hardbreaks-option:
 
+== Examples = Getting Data
+
+=== Example - Prometheus Query
+
+TIP: Below is a basic example of querying Prometheus (Victoria Metrics in reality) to extract data usable later in forecasting.
+
+.Extracting Prometheus Time series
+[source, bash]
+----
+$ git clone https://github.com/dcoles/prometheus-pandas.git
+$ docker run -it --rm -v $(pwd):/project --network ti-dhome_default python:3 bash
+root@13c29e782c6b:/project# cd /project
+root@13c29e782c6b:/project# pip install -r requirements.txt
+root@13c29e782c6b:/project# python 
+Python 3.11.1 (main, Jan 11 2023, 14:15:54) [GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from prometheus_pandas import query
+>>> p = query.Prometheus('http://victoriametrics:8428')
+>>> series = p.query('sensors_zigbee_energy_l1{location="C01~Garage~PowerMeter",db="sensors"}[1d]', '2025-03-10T00:00:00Z')
+>>> print(series)
+                               sensors_zigbee_energy_l1{db="sensors",location="C01~Garage~PowerMeter"}
+2025-03-09 00:00:05.108999968                                           4388.999                      
+2025-03-09 00:00:05.124000072                                           4388.999                      
+2025-03-09 00:00:05.947999954                                           4389.013                      
+2025-03-09 00:00:05.957000017                                           4389.013                      
+2025-03-09 00:00:06.947000027                                           4389.013                      
+...                                                                          ...                      
+2025-03-09 23:59:35.961999893                                           4397.216                      
+2025-03-09 23:59:36.905999899                                           4397.216                      
+2025-03-09 23:59:36.911000013                                           4397.216                      
+2025-03-09 23:59:37.770999908                                           4397.216                      
+2025-03-09 23:59:37.776000023                                           4397.216                      
+
+[36258 rows x 1 columns]
+>>> 
+----
 
 == References
 
