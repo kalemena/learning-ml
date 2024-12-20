@@ -1,6 +1,27 @@
 = Forecasting
 :hardbreaks-option:
 
+== Introduction
+
+.Time series:
+Time series data is widely used for forecasting, trend analysis, and anomaly detection.
+
+.Timeseries Components:
+* Trend
+* Seasonality
+* Cyclic Patterns
+* Irregular/Residual
+
+.Timeseries Visualization Techniques:
+Use plots or tools like Grafana widgets to show charts in the form of lin, bar, heatmaps, etc
+
+.Timeseries Pre-processing:
+* Data Cleaning: handle missing data (forward/backward-fill), outliers (spikes capping/smoothing/imputation)
+* Resampling & Aggregation: group/fix frequencies (upsampling/downsampling)
+
+.Time Series Analysis and Decomposition
+Technique(s) used to decompose a Timeseries into its *components*.
+
 == Examples = Getting Data
 
 === Example - Prometheus Query
