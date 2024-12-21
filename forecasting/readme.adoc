@@ -22,6 +22,26 @@ Use plots or tools like Grafana widgets to show charts in the form of lin, bar, 
 .Time Series Analysis and Decomposition
 Technique(s) used to decompose a Timeseries into its *components*.
 
+.Stationary Concept:
+A time series is considered stationary if its statistical properties—mean, variance, and autocorrelation—remain constant over time.
+Tests required to apply any forecasting study.
+* Stationarity Tests:
+** ADF (Augmented Dickey-Fuller)
+** KPSS (Kwiatkowski-Phillips-Schmidt-Shin)
+* Transforming data to stationary: techniques exists to go from non-stationary to stationary
+
+.Time Series Forecasting
+* Algorithms:
+** AR: Autoregression
+** MA: Moving Average
+** ARMA
+** ARIMA:
+** SARIMA
+** Exponential Smoothing Methods
+** Prohet
+** LSTM
+
+
 == Examples = Getting Data
 
 === Example - Prometheus Query
