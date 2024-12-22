@@ -1,16 +1,18 @@
-= Forecasting
+= Time series forecasting
 :hardbreaks-option:
+
+Time series forecasting is data analysis that enables predicting future values based on previously observed values.
 
 == Introduction
 
 .Time series:
 Time series data is widely used for forecasting, trend analysis, and anomaly detection.
+A time series is a sequence of data points recorded or measured at successive points in time.
 
-.Timeseries Components:
-* Trend
-* Seasonality
-* Cyclic Patterns
-* Irregular/Residual
+.Timeseries characteristics:
+* Trend: long-term movement in the data
+* Seasonality: periodic fluctuations that occur at regular intervals (weekly, monthly, yearly, etc)
+* Noise and Cyclic Patterns: random variations or Irregular/Residual
 
 .Timeseries Visualization Techniques:
 Use plots or tools like Grafana widgets to show charts in the form of lin, bar, heatmaps, etc
