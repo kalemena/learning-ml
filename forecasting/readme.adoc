@@ -18,8 +18,13 @@ A time series is a sequence of data points recorded or measured at successive po
 Use plots or tools like Grafana widgets to show charts in the form of lin, bar, heatmaps, etc
 
 .Timeseries Pre-processing:
-* Data Cleaning: handle missing data (forward/backward-fill), outliers (spikes capping/smoothing/imputation)
+* Data Cleaning: 
+** handle missing data with filling techniques: forward/backward-fill, K-nearest Neighbors
+** outliers: remove or adjust outliers.
+Techniques: spikes capping/smoothing/imputation, Z-scores, Interquartile Range or IQR
 * Resampling & Aggregation: group/fix frequencies (upsampling/downsampling)
+* Normalization: scaling data for better model performance and predictive accuracy.
+Techniques: Min-Max scaling, Z-score normalization
 
 .Time Series Analysis and Decomposition
 Technique(s) used to decompose a Timeseries into its *components*.
