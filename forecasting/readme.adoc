@@ -41,12 +41,19 @@ Tests required to apply any forecasting study.
 * Algorithms:
 ** AR: Autoregression
 ** MA: Moving Average
-** ARMA
+** Autoregressive Integrated Moving Average (ARMA):
+Helps to identify patterns within the data. Best for non=stationary.
 ** ARIMA:
-** SARIMA
-** Exponential Smoothing Methods
-** Prohet
-** LSTM
+** SARIMA:
+** Exponential Smoothing Methods:
+** Prohet:
+** LSTM:
+
+.Time Series Forecasts Evaluating
+Techniques are used to:
+* measure performance of Forecasting: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
+* do time-aware cross-validation: Rolling Forecast Origin, TimeSeriesSplit
+
 
 
 == Examples = Getting Data
