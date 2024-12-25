@@ -54,6 +54,17 @@ Techniques are used to:
 * measure performance of Forecasting: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
 * do time-aware cross-validation: Rolling Forecast Origin, TimeSeriesSplit
 
+.Time Series Libraries
+* Python - statsmodels
+* Python - prophet
+* Python - pmdarima
+* Python - tsfresh
+
+.Time Series in Machine Learning
+Machine Learning methods offer greater flexibility in modeling non-linear patterns and interactions.
+*supervised learning* is used where past observations are used to predict future values.
+Models do not require stationarity or assumptions about the data’s structure.
+* Popular Models: Random Forest (RF) and XGBoost
 
 
 == Examples = Getting Data
