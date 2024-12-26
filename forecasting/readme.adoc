@@ -145,7 +145,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 == References
 
 .Guides
+* link:https://machinelearningmodels.org/a-complete-guide-to-time-series-forecasting-with-python/[Complete Guide to Time Series forecasting]
 * link:https://medium.com/@wainaina.pierre/the-complete-guide-to-time-series-forecasting-models-ef9c8cd40037[Medium Article - Complete Guide to Time Series forecasting]
+
+.Blog
+* link:https://www.appliedaicourse.com/blog/time-series-analysis/[Time series analysis]
 
 .Prometheus
 * link:https://github.com/dcoles/prometheus-pandas[Prometheus - Pandas]
+* link:https://ricardorocha.io/blog/prometheus-metrics-in-pandas/[Example - conversions]
