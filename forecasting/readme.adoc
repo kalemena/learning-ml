@@ -15,7 +15,8 @@ A time series is a sequence of data points recorded or measured at successive po
 * Noise and Cyclic Patterns: random variations or Irregular/Residual
 
 .Timeseries Visualization Techniques:
-Use plots or tools like Grafana widgets to show charts in the form of lin, bar, heatmaps, etc
+* Use plots or tools like Grafana widgets to show charts in the form of lin, bar, heatmaps, etc
+* Matplotlib, Seaborn
 
 .Timeseries Pre-processing:
 * Data Cleaning: 
